@@ -10,6 +10,7 @@ function App() {
       <TAOS
         className="delay-[300ms] duration-[600ms] taos:translate-y-[100%] taos:opacity-0"
         data-taos-offset="300"
+        as='div'
       >
         <h1 className="text-9xl">Test</h1>
       </TAOS>
